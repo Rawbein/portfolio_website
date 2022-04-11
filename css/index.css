@@ -1107,16 +1107,7 @@ width: 100%;   height: 100vh;
    width: 100% !important;
 }
 }
-#portfolio-overlay
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   background-color: #000000;
-   opacity: 0.87;
-}
+
 #wb_services
 {
    clear: both;
@@ -1219,72 +1210,10 @@ width: 100%;   height: 100vh;
    padding: 75px 15px 75px 15px;
    margin-right: auto;
    margin-left: auto;
-   max-width: 800px;
+   max-width: 100%;
 }
-#about > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#about > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#about > .row > .col-1
-{
-   float: left;
-}
-#about > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#about > .row > .col-1 > .col-1-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 0px 25px 0px 25px;
-}
-#about:before,
-#about:after,
-#about .row:before,
-#about .row:after
-{
-   display: table;
-   content: " ";
-}
-#about:after,
-#about .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#about > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#about-overlay
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   background-color: #000000;
-   opacity: 0.86;
-}
+
+
 #wb_firstStepsLayoutGrid
 {
    clear: both;
@@ -5899,3 +5828,115 @@ width: 100%;   height: 450px;
       box-sizing: border-box;
     }
        /* css code end for form*/   
+
+    /* css code  start for about me and skils*/    
+
+
+
+
+    .ame{
+      color: #FFFFFF;
+    }
+    .row1::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+    
+    [class*="colabout-"] {
+      float: left;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    
+    html {
+      font-family: "Lucida Sans", sans-serif;
+    }
+    
+    
+    .aside {
+      background-color: #2d2e2e;
+      padding: 15px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+    }
+    
+    
+    
+    /* For desktop: */
+    
+    .colabout-5 {width: 45%;}
+    
+    .colabout-7 {width: 55%;}
+    
+    
+    
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="colabout-"] {
+        width: 100%;
+      }
+    }
+    
+    .myskills{
+      color: #FFFFFF;
+    }
+    .skills{
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+    
+    .container1 {
+      background-color: #FFFFFF;
+      width: 100%;
+          border-radius: 15px;
+    }
+    
+    .skill {
+      background-color: rgb(192, 192, 192);
+      color: white;
+      padding: 1%;
+      text-align: right;
+      font-size: 20px;
+      border-radius: 15px;
+    }
+    
+    .html {
+      width: 90%;
+    }
+    
+    .css {
+      width: 90%;
+    }
+    .Javascript {
+      width: 70%;
+    }
+    .java {
+      width: 80%;
+    }
+    .dart {
+      width: 80%;
+    }
+    .c {
+      width: 70%;
+    }
+    .php {
+      width: 70%;
+    }
+    .photoshop {
+      width: 80%;
+    }
+    .illustrator {
+      width: 70%;
+    }
+    
+
+
+
+
+
+ /* css code  end for about me and skils*/  
+ 
