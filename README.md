@@ -1,6 +1,6 @@
 # portfolio_website
 
-Hello this is Rabin Sharma.
+Hello this is Rabin
 
 Legal Attribution
 
